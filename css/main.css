@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding:0;	
+}
+/*navigation coding*/
+nav{
+	width:100%;
+	height:60px;
+	background-color:black;
+	
+}
+nav img{
+	float:left;
+	padding:0px 20px;
+}
+nav ul{
+	float:left;
+}
+nav ul li{
+	float:left;
+	list-style-type:none;
+	
+}
+#logo {
+	height:60px;
+	width:200px;
+	float:left;
+	
+}
+nav li a{
+	display:block;
+	font-size:14px;
+	padding:22px 14px;
+	color:white;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	background:#f3f3f3;
+	color:black;
+}
+/*animationcode*/
+.imaganimation{
+	position:relative;
+	height:700px;
+	width:100%;
+	background:url('screen-shot-2016-11-27-at-1-42-50-pm1.png') no-repeat center/cover;
+	-webkit-animation:animate 12.5s infinite;
+	
+}
+@keyframes animate{
+	30%{
+		background:url(screen-shot-2016-11-27-at-1-42-50-pm1.png) no-repeat center/cover;
+	}
+	50%{
+		background:url(p2494256118.jpg) no-repeat center/cover;
+	}
+	75%{
+		background:url(1440x900_2aceeefbd8feea8.jpg) no-repeat center/cover;
+	}
+	100%{
+		background:url(465397-short_hair-anime-anime_girls-Kimi_no_Na_Wa-your_name.-Miyamizu_Mitsuha-Tachibana_Taki-knee-highs-black_hair-landscape.jpg) no-repeat center/cover;
+	}
+}
+/*box code*/
+.box{
+	width:100%;
+	height:90px;
+	background:purple;
+	position:absolute;
+	
+}
+.box p{
+	font-size:20px;
+	padding-top:10px;
+	color:#fff;
+	text-align:center;
+}
+#trailers{
+	background:url(your-name-2016-001-comet-falling-over-city-night.jpg) no-repeat center/cover;
+	width:100%;
+	height:1100px;
+	margin-top:11px;
+}
+#trailers h1{
+	font-size:30px;
+	padding-top:20px;
+	text-align:center;
+	color:white;
+}
+.video1{
+	width:50%;
+	height:500px;
+	
+}
+.video2{
+	width:50%;
+	height:500px;
+	
+}
+/*footer coding*/
+.page_footer{
+	width:100%;
+	height:20px;
+	color:white;
+	text-align:center;
+	background:black;
+	font-size:20px;
+	margin-top:0px;
+
+}

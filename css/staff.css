@@ -1,0 +1,87 @@
+*{
+	margin:0;
+	padding:0;	
+}
+body{
+	background:url('your_name_radwimps.jpg')no-repeat center/cover;
+	
+	
+}
+/*navigation coding*/
+nav{
+	width:100%;
+	height:60px;
+	background-color:black;
+	
+}
+nav img{
+	float:left;
+	padding:0px 20px;
+}
+nav ul{
+	float:left;
+}
+nav ul li{
+	float:left;
+	list-style-type:none;
+	
+}
+#logo {
+	height:60px;
+	width:200px;
+	float:left;
+	
+}
+nav li a{
+	display:block;
+	font-size:14px;
+	padding:22px 14px;
+	color:white;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	background:#f3f3f3;
+	color:black;
+}
+h1{
+	color:white;
+	text-align:center;
+	font-size:28px;
+	font-family:Arial;
+	
+}
+.img{
+		
+	width:1000px;
+	margin:4px auto;
+	border:1px solid black;
+	background:black;
+	border-radius:5px;
+	opacity:.7;
+	box-shadow:0 15px 25px rgba(0,0,0,5);
+}
+.img h2{
+	color:white;
+	text-align:center;
+	font-family:arial;
+}
+.img img{
+	padding-top:10px;
+	width:400px;
+	height:400px;
+}
+.img p{
+	color:white;
+	text-align:center;
+	font-family:arial;
+}
+.page_footer{
+	width:100%;
+	height:20px;
+	color:white;
+	text-align:center;
+	background:black;
+	font-size:20px;
+	margin-top:8.5px;
+
+}
